@@ -102,8 +102,12 @@ python run_special_track_qwen3_8b_with_vllm.py ./input/
 
 # Results
 
-| Model                       | Track   | LB Results (acc) | LB Results (score) |
-|:----------------------------|:--------|:-----------------|:-------------------|
-| [Qwen3.8-27B-FP8](https://huggingface.co/Qwen/Qwen3.8-27B-FP8) (Reasoning) | Main    | 58.36            | 2.72               |
-| [Qwen3-VL-32B-Instruct-FP8](https://huggingface.co/Qwen/Qwen3-VL-32B-Instruct-FP8)   | Main    | ~52.00           | ~2.60              |
-| [Qwen3-VL-8B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct)   | Special | 48.70            | 2.55               |
+Results on public test leaderboard:
+
+| Model                       | Track   | LB Results (accuracy) | LB Results (score) |
+|:----------------------------|:--------|:----------------------|:-------------------|
+| [Qwen3.8-27B-FP8](https://huggingface.co/Qwen/Qwen3.8-27B-FP8) (Reasoning) | Main    | 58.36                 | 2.72               |
+| [Qwen3-VL-32B-Instruct-FP8](https://huggingface.co/Qwen/Qwen3-VL-32B-Instruct-FP8)   | Main    | ~52.00                | ~2.60              |
+| [Qwen3-VL-8B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct)   | Special | 48.70                 | 2.55               |
+
+For reference TOP-1 solution: accuracy: 66.36, score: 3.02.
