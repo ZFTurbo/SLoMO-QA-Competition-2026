@@ -1,6 +1,6 @@
 # SLoMO QA Competition 2026
 
-Solution for the [SLoMO-QA Competition](https://eval.ai/web/challenges/challenge-page/2713/overview)
+Solution for the [SLoMO-QA Competition](https://eval.ai/web/challenges/challenge-page/2713/overview). 3rd place Main track, 4th place Special track.  
 
 ## Solution Description
 
